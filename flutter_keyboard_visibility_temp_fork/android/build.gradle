@@ -27,10 +27,11 @@ android {
         namespace 'com.jrai.flutter_keyboard_visibility_temp_fork'
     }
 
-    compileSdkVersion 34
+    ndkVersion "29.0.14206865"
+    compileSdkVersion 36
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 24
     }
 
     lint {

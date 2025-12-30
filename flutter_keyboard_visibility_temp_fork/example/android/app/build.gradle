@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.jrai.flutter_keyboard_visibility_example.example"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion "29.0.14206865"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
